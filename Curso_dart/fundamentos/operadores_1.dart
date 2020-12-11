@@ -19,5 +19,5 @@ main() {
   print(fragil || caro); // OU - UM DOS DOIS PRECISA SER VERDADEIRO
   print(fragil ^
       caro); // OU EXCLUSIVO - UM SOMENTE VERDADEIRO (PARA SER EXCLUSIVO)
-  print(!fragil);
+  print(!fragil); // UNÁRIO "!" = NOT
 }

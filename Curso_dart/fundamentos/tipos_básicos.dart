@@ -16,9 +16,7 @@ main() {
   //print(telefones['Willian']);
   // print(telefones['Helloisa']);
   // print(telefones['Graciene']);
-  if (telefones.isEmpty) {
-    return null;
-  }
+
   print(telefones.length);
   print(nomes.length);
 }
