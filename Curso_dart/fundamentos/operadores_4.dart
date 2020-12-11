@@ -8,6 +8,7 @@ main() {
   print('Está frio? (s/N)');
   bool estaFrio = stdin.readLineSync() == 's';
 
-  String resultado = estaChovendo && estaFrio ? 'Ficar em casa' : 'Sair !!!';
+  String resultado = estaChovendo || estaFrio ? 'Ficar em casa' : 'Sair !!!';
   print(resultado);
+  print(estaChovendo || estaFrio ? 'Azarado' : 'Sortudo');
 }
