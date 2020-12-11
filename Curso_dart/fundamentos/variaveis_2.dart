@@ -1,6 +1,7 @@
 main() {
   var a = 2;
   var b = 2.3;
+  var texto = "O valor da soma é : ";
 
-  print(a + b);
+  print(texto + (a + b).toString());
 }
