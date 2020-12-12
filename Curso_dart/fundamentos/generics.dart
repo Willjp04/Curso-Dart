@@ -1,5 +1,10 @@
+import 'dart:math';
+
+import 'dart:svg';
+
 main() {
   List<String> frutas = ['banana', 'maçã', 'laranja'];
+
   frutas.add('limão');
   print(frutas);
 
